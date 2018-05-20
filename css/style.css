@@ -1,52 +1,54 @@
-h1{font-size:55px;
-text-decoration:underline;
-font-weight:bold;
-font-family:TW Cen MT;
+h1{
+	font-size:55px;
+	text-decoration:underline;
+	font-weight:bold;
+	font-family:TW Cen MT;
 }
 
-h2{font-size:45px;
-text-decoration:underline;
-font-weight:bold;
-font-family:TW Cen MT;
-text-align: center;
+h2{
+	font-size:45px;
+	text-decoration:underline;
+	font-weight:bold;
+	font-family:TW Cen MT;
+	text-align: center;
 }
 
 body {
-color:black;
-background-attachment: fixed;
-background-color:white;
-background-image:url("../images/background.jpg");
-background-repeat:repeat;
-background-size:100% auto;
-margin:auto;
-font-family:TW Cen MT;
-font-size:18px;
-
+	color:black;
+	background-attachment: fixed;
+	background-color:white;
+	background-image:url("../images/background.jpg");
+	background-size:100% auto;
+	margin:auto;
+	font-family:TW Cen MT;
+	font-size:18px;
 }
 
-article{text-align:left ;
-font-size:30px;
-margin-left: 25%;
-margin-right:25%;
-font-family:TW Cen MT;}
+article{
+	text-align:left ;
+	font-size:30px;
+	margin-left: 25%;
+	margin-right:25%;
+	font-family:TW Cen MT;
+}
 
 
 
 table{
-color:black;
-vertical-align: center;
-margin-left:auto;
-margin-right:auto;
-font-family:Impact;
-font-size:20;
-text-align: center;
-font-family:TW Cen MT;
-
+	color:black;
+	vertical-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Impact;
+	font-size:20;
+	text-align: center;
+	font-family:TW Cen MT;
 }
 
 footer{
-text-align:center ;
-font-family:TW Cen MT;}
+	text-align:center ;
+	font-family:TW Cen MT;
+}
 
 #myDIV {
     width: 100%;
@@ -54,5 +56,11 @@ font-family:TW Cen MT;}
     text-align: center;
     background-color: lightblue;
     margin-top: 20px;
-font-family:TW Cen MT;
+	font-family:TW Cen MT;
+}
+
+@media (max-width: 640px) {
+	body {
+		background-image:url("../images/background-mobile.jpg");
+	}
 }
