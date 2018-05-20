@@ -1,0 +1,39 @@
+#nav {
+	margin:0;
+	padding:0;
+	position:relative;
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-top:30px;
+	background: transparent url(../images/menu.png) no-repeat 50% 0;
+	height:180px;
+	top:20px;
+	padding: 15px;
+
+}
+
+#nav li {
+	color: white;
+	text-decoration: none;
+	display:inline-table;
+	padding:0;
+	position: relative;
+	top: 45px;
+	font-size: 30px;
+	font-family:Impact;
+	padding: 18px;
+	text-transform:uppercase;
+}
+
+header {
+	font-size:65px;
+	text-align : center ;
+	font-family:TW Cen MT;
+	color: white ;
+}
+
+a {
+	color: white;
+	text-decoration:none;
+	font-family:TW Cen MT;
+}
