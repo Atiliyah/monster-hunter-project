@@ -59,6 +59,10 @@ footer{
 	font-family:TW Cen MT;
 }
 
+.mdl-card{
+	margin:auto;
+}
+
 @media (max-width: 640px) {
 	body {
 		background-image:url("../images/background-mobile.jpg");
